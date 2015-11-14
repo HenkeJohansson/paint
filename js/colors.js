@@ -15,15 +15,6 @@ var frequency = 0.3,
 	width = 127,
 	colors = ['#000000','grey','#ffffff'];
 
-// for (var i = 0; i < 32; ++i) {
-// 	red   = Math.sin(frequency*i + 0) * 127 + 128;
-// 	green = Math.sin(frequency*i + 2) * 127 + 128;
-// 	blue  = Math.sin(frequency*i + 4) * 127 + 128;
-
-// 	colors.push( RGBToColor(red, green, blue) );
-// }
-
-
 function makeColorGradient(frequency1, frequency2, frequency3,
 						   phase1, phase2, phase3,
 						   center, width, len) {
