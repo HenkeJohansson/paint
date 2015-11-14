@@ -7,15 +7,17 @@
 }
 
 
-.toolbar {
+#toolbar {
 	background-color: rgb(69,69,69);
 	color: white;
-	width: 250px;
+	width: 267px;
 	height: 100%;
 	position: fixed;
 	top: 0;
 	left: 0;
 	z-index: 10;
+
+	.upper-content {}
 
 	#rad {
 		position: relative;
@@ -72,8 +74,8 @@
 	}
 
 	#colors {
-		// height: 50px;
-		// overflow: scroll;
+		padding-top: 5px;
+		overflow: scroll;
 
 		.swatch {
 			width: 50px;

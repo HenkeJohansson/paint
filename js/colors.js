@@ -9,7 +9,7 @@ function RGBToColor(r,g,b) {
 	return '#' + byteToHex(r) + byteToHex(g) + byteToHex(b);
 }
 
-var frequency = 0.3,
+var frequency = 0.10,
 	amplitude = 127,
 	center = 128,
 	width = 127,
@@ -38,8 +38,8 @@ function makeColorGradient(frequency1, frequency2, frequency3,
 }
 
 // makeColorGradient(0.3,0.3,0.3,0,2,4);
-makeColorGradient(0.10,0.10,0.10,0,2,4, 128, 127);
-makeColorGradient(frequency,frequency,frequency,0,2,4, center, width, 50);
+// makeColorGradient(0.10,0.10,0.10,0,2,4, 128, 127);
+makeColorGradient(frequency,frequency,frequency,0,2,4, center, width, 100);
 
 
 var swatches = document.getElementsByClassName('swatch');
