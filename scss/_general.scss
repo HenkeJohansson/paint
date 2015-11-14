@@ -1,0 +1,79 @@
+
+
+*,
+*:before,
+*:after,
+html, body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	user-select: none;
+}
+
+.clearfix {
+	clear: both;
+}
+
+html, body {
+	height: 100%;
+}
+
+
+header {
+	background-color: rgb(36,36,36);
+	height: 100px;
+	padding-left: 50px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 9;
+	padding-left: 270px;
+
+	h1 {
+		display: inline-block;
+		line-height: 50px;
+		color: white;
+	}
+}
+
+a.link-box {
+	text-decoration: none;
+	color: black;
+
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+
+/*=====================================
+=            PAGES - Index            =
+=====================================*/
+
+.row-index,
+.content,
+.index-half {
+	height: 100%;
+}
+
+.index-half {
+	position: relative;
+
+	.content-block {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+}
+
+.col-painter {
+	background-color: rgb(7, 142, 236);
+}
+
+.col-gallery {
+	background-color: rgb(165, 222, 11);
+}
+
+
+/*=====  End of PAGES - Index  ======*/
