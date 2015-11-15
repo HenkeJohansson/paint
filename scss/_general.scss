@@ -18,6 +18,11 @@ html, body {
 	height: 100%;
 }
 
+.container-full {
+	margin: 0 auto;
+	width: 100%;
+}
+
 
 header {
 	background-color: rgb(69,69,69);
@@ -50,7 +55,7 @@ header {
 			text-align: center;
 
 			&:hover {
-				background-color: cornflowerblue;
+				background: linear-gradient( 45deg, rgb(31, 92, 253), rgb(1, 179, 212) );
 			}
 
 			a {
@@ -76,10 +81,16 @@ a.link-box {
 =            PAGES - Index            =
 =====================================*/
 
+.container-full,
 .row-index,
 .content,
 .index-half {
 	height: 100%;
+}
+
+.row-index {
+	margin-right: 0;
+	margin-left: 0;
 }
 
 .index-half {
@@ -94,11 +105,11 @@ a.link-box {
 }
 
 .col-painter {
-	background-color: rgb(7, 142, 236);
+	background: linear-gradient( 45deg, rgb(31, 92, 253), rgb(1, 179, 212) );
 }
 
 .col-gallery {
-	background-color: rgb(165, 222, 11);
+	background: linear-gradient( -45deg, rgb(179, 212, 6), rgb(92, 253, 58) );
 }
 
 

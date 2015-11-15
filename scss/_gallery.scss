@@ -1,0 +1,22 @@
+
+
+#wrapper-gallery {
+	background: linear-gradient( -45deg, rgb(179, 212, 6), rgb(92, 253, 58) );
+}
+
+.gallery-col {
+	margin-top: 15px;
+	margin-bottom: 15px;
+
+	.img-frame {
+		height: 300px;
+		width: 300px;
+		background-color: white;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+
+		border: 5px solid black;
+	}
+
+}

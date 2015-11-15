@@ -12,6 +12,8 @@ function saveImage() {
 	request.onreadystatechange = function() {
 		if ( request.readyState === 4 && request.status === 200 ) {
 			var response = request.responseText;
+			console.log(response);
+			alert('Bild Sparad!');
 		}
 	};
 

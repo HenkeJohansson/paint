@@ -13,7 +13,7 @@ var frequency = 0.10,
 	amplitude = 127,
 	center = 128,
 	width = 127,
-	colors = ['#000000','grey','#ffffff'];
+	colors = ['#000000', '#5F4135', '#363636', '#DADADA','#ffffff'];
 
 function makeColorGradient(frequency1, frequency2, frequency3,
 						   phase1, phase2, phase3,
@@ -39,7 +39,7 @@ function makeColorGradient(frequency1, frequency2, frequency3,
 
 // makeColorGradient(0.3,0.3,0.3,0,2,4);
 // makeColorGradient(0.10,0.10,0.10,0,2,4, 128, 127);
-makeColorGradient(frequency,frequency,frequency,0,2,4, center, width, 100);
+makeColorGradient(frequency,frequency,frequency,0,2,4, center, width, 70);
 
 
 var swatches = document.getElementsByClassName('swatch');
