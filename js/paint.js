@@ -5,7 +5,8 @@ var canvas = document.getElementById('canvas'),
 	headerHeight = document.getElementById('header').height,
 	toolbarWidth = document.getElementById('toolbar').width,
 	radius = 10,
-	dragging = false;
+	dragging = false,
+	brushCursor;
 
 canvas.width = window.innerWidth - 250;
 canvas.height = window.innerHeight - 100;
@@ -43,6 +44,9 @@ function clearCanvas(canvas) {
 canvas.addEventListener('mousedown', engage);
 canvas.addEventListener('mousemove', drawDot);
 canvas.addEventListener('mouseup', disengage);
+
+brushCursor = document.createElement('div');
+brushCursor.setAttribute('id', 'brush');
 
 var sizeCanvas = function() {
 	var image = context.getImageData(0,0, canvas.width, canvas.height);
